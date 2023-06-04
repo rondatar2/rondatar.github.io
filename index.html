@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="loader-container">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </div>
+    <div class='container'>
+        <nav id="nav">
+            <div id="logo">
+                <a href="#nav"><img class="logo" src="img/logo-light.png" alt=""></a>
+            </div>
+            <div class="nav-toggle"><input id="check" type="checkbox">
+                <label class="checkbtn" for="check">
+                    <i class="fa-solid link fa-bars fa-2xl"></i>
+                </label>
+            </div>
+            <div class="linkhide" id="nav-list">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="nav-mode">
+                <a href="https://twitter.com/datar_ron" target="_blank"><i
+                        class="link fa-brands fa-twitter fa-xl"></i></a>
+                <a href="https://www.linkedin.com/in/ranulfo-ii-datar-bab743243/" target="_blank"><i
+                        class="link fa-brands fa-linkedin fa-xl"></i></a>
+                <a href="https://github.com/rondatar2" target="_blank"><i
+                        class="link fa-brands fa-github fa-xl"></i></a>
+                <i id="light-dark-toggle-id" class="light-dark-toggle fa-solid fa-moon fa-xl"></i>
+            </div>
+        </nav>
+        <div class="home-container" id="home">
+            <div class="element-container">
+                <img class="home-picture" src="img/home-picture.jpg" alt="">
+                <div class="text-home">
+                    <div class="light">Hi, I am</div>
+                    <div class="bold">RON DATAR</div>
+                    <div class="light-blue">FRONT-END DEVELOPER</div>
+                </div>
+            </div>
+        </div>
+        <div class="service-container" id="service">
+            <div class="wai">
+                <div class="title">
+                    <h1 class="title-service reveal">
+                        What i can provide?
+                        <div class="border">
+                            <div class="border-bottom"></div>
+                        </div>
+                    </h1>
+                </div>
+                <div class="service">
+                    <div class="service-item reveal scale2">
+                        <img class="services-icon" src="img/webdesign.png" alt="">
+                        <h2 class="title-blue">Web Design</h2>
+                        <p class="service-paragraph">I am able to create static, contemporary websites with HTML,
+                            CSS,
+                            Javascript, and Jquery.</p>
+                    </div>
+                    <div class="service-item reveal scale2">
+                        <img class="services-icon" src="img/front-end-dev.png" alt="">
+                        <h2 class="title-blue">Frontend Development</h2>
+                        <p class="service-paragraph">Capable of developing front-end websites with reactjs, html,
+                            css,
+                            jquery, and javascript.</p>
+                    </div>
+                    <div class="service-item reveal scale2">
+                        <img class="services-icon" src="img/responsive-website.png" alt="">
+                        <h2 class="title-blue">Responsive website</h2>
+                        <p class="service-paragraph">I am able to create websites that are responsive to screen
+                            sizes
+                            and
+                            all types of devices.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <div class="title">
+                    <h1 class="title-skills reveal">
+                        Skills
+                        <div class="border">
+                            <div class="border-bottom"></div>
+                        </div>
+                    </h1>
+                </div>
+                <div class="skills-container">
+                    <div class="skills-item reveal">
+                        <div class="bold-service">Framework:</div>
+                        <div class="fw item-skill">
+                            <div class="scale itemApp">
+                                <div class="logo-app"><i class="fa-brands fa-react fa-2xl"></i></div>
+                                <div class="title-app">React JS</div>
+                            </div>
+                        </div>
+                        <div class="bold-service">Front-End:</div>
+                        <div class="fe item-skill">
+                            <div class="scale itemApp">
+                                <div class="logo-app"><i class="fa-brands fa-html5 fa-2xl"></i></div>
+                                <div class="title-app">HTML</div>
+                            </div>
+                            <div class="scale itemApp">
+                                <div class="logo-app"><i class="fa-brands fa-css3-alt fa-2xl"></i></div>
+                                <div class="title-app">CSS</div>
+                            </div>
+                            <div class="scale itemApp">
+                                <div class="logo-app"><i class="fa-brands fa-square-js fa-2xl"></i></div>
+                                <div class="title-app">Javascript</div>
+                            </div>
+                            <div class="scale itemApp">
+                                <div class="logo-app"><img class="skills-icon" src="img/jquery-icon.png" alt="">
+                                </div>
+                                <div class="title-app">Jquery</div>
+                            </div>
+                        </div>
+                        <div class="bold-service">Back-End:</div>
+                        <div class="be item-skill">
+                            <div class="scale itemApp">
+                                <div class="logo-app"><i class="fa-brands fa-php fa-2xl"></i></div>
+                                <div class="title-app">Php</div>
+                            </div>
+                            <div class="scale itemApp">
+                                <div class="logo-app"><img class="skills-icon" src="img/mysql-icon.png" alt="">
+                                </div>
+                                <div class="title-app">MySQL</div>
+                            </div>
+                        </div>
+                        <div class="bold-service">Others:</div>
+                        <div class="others item-skill">
+                            <div class="scale itemApp">
+                                <div class="logo-app"><i class="fa-brands fa-python fa-2xl"></i></div>
+                                <div class="title-app">Python</div>
+                            </div>
+                            <div class="scale itemApp">
+                                <div class="logo-app"><img class="skills-icon" src="img/ps-icon.png" alt="">
+                                </div>
+                                <div class="title-app">Photoshop</div>
+                            </div>
+                            <div class="scale itemApp">
+                                <div class="logo-app"><i class="fa-brands fa-figma fa-2xl"></i></div>
+                                <div class="title-app">Figma</div>
+                            </div>
+                            <div class="scale itemApp">
+                                <div class="logo-app"><img class="skills-icon" src="img/vscode-icon.png" alt="">
+                                </div>
+                                <div class="title-app">VS Code</div>
+                            </div>
+                            <div class="scale itemApp">
+                                <div class="logo-app"><i class="fa-brands fa-wordpress fa-2xl"></i>
+                                </div>
+                                <div class="title-app">Wordpress</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about-container" id="about">
+            <div class="element-about-container">
+                <div class="about-desc">
+                    <div class="light-about reveal3">About me</div>
+                    <div class="bold-about reveal3">Who I am</div>
+                    <div class="light-about-blue reveal3">FRONT-END DEVELOPER</div>
+                    <p class="about-paragraph reveal3">
+                        Hi, I'm Ranulfo II R. Datar and I graduated in Bachelor of Science degree
+                        in Computer Science from the University of the East (Caloocan). I am aspiring to be a
+                        Frontend
+                        Developer/Engineer who has passionate web developer and expertise in constructing responsive
+                        designs.</p>
+                    <p class="about-paragraph reveal3">
+                        Before I start college, my dream is to become a software engineer since I love logic and
+                        math.
+                        When
+                        I started programming, I appreciate it even more. After earning a Bachelor's degree in
+                        Computer
+                        Science, I have gained more experience as a frontend developer and I am actively studying to
+                        learn
+                        new things.
+                    </p>
+                    <a target="_blank"
+                        href="https://drive.google.com/file/d/1pBkeHnXh8Ea48PhQXGRzAfKND-WlFbX9/view?usp=sharing"
+                        download="sample.pdf">
+                        <button class="about-btn reveal3">Download CV &nbsp; <i
+                                class="fa-solid fa-download"></i></button>
+                    </a>
+                </div>
+                <img id="about-pic" class="reveal2" src="img/about-pic.jpg" alt="">
+            </div>
+        </div>
+        <div class="roadmap-container">
+            <div class="bold-roadmap reveal">
+                Timeline of Experience
+                <div class="border">
+                    <div class="border-bottom"></div>
+                </div>
+            </div>
+            <div class="roadmap">
+                <div class="row1 row-roadmap">
+                    <div class="experience exp-row1 solo reveal">
+                        <div class="bold-exp">2023</div>
+                        <div class="blue-exp">College Graduate</div>
+                        <div class="light-exp">University of the East (Caloocan)</div>
+                    </div>
+                    <div class="experience exp-row3 reveal">
+                        <div class="bold-exp">2019</div>
+                        <div class="blue-exp">Started College</div>
+                        <div class="light-exp">Bachelor of Science in Computer Science</div>
+                        <div class="light-exp">University of the East (Caloocan)</div>
+                        <div class="blue-exp">Finished Senior High School</div>
+                        <div class="light-exp">University of the East (Caloocan)</div>
+                    </div>
+                    <div class="experience solo exp-row5 reveal">
+                        <div class="bold-exp">2012</div>
+                        <div class="blue-exp">Started Highschool</div>
+                        <div class="light-exp">Probex Schools</div>
+                    </div>
+                </div>
+                <div class="line-roadmap">
+                    <div class="line-road reveal">
+                        <div class="circle-road1 circle reveal"></div>
+                        <div class="circle-road2 circle reveal"></div>
+                        <div class="circle-road3 circle reveal"></div>
+                        <div class="circle-road4 circle reveal"></div>
+                        <div class="circle-road5 circle"></div>
+                    </div>
+                </div>
+                <div class="row2 row-roadmap">
+                    <div class="experience exp-row2 solo reveal">
+                        <div class="bold-exp">2022</div>
+                        <div class="blue-exp">Internship</div>
+                        <div class="light-exp">The IIT Hub</div>
+                    </div>
+                    <div class="experience exp-row4 reveal">
+                        <div class="bold-exp">2017</div>
+                        <div class="blue-exp">Started Senior Highschool</div>
+                        <div class="light-exp">Accountancy, Business, and Management (ABM)</div>
+                        <div class="light-exp">University of the East (Caloocan)</div>
+                        <div class="blue-exp">Finished High School</div>
+                        <div class="light-exp">Probex Schools</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="project-container" id="project">
+            <div class="title-project">
+                <div class="project-bold-title reveal">My Projects</div>
+                <div class="project-light-title reveal">Here are the collection of my school and personal simple
+                    projects
+                    that i
+                    built
+                    using the skills that i learned.</div>
+                <hr class="reveal">
+            </div>
+            <div class="all-projects">
+                <div class="project-item reveal">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/javascript.portfolio.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; My Personal Website
+                        </div>
+                        <div class="proj-details-light">
+                            Responsive Website for my personal website. This is built using HTML, CSS and
+                            Javascript.
+                        </div>
+                        <div class="proj-btn">
+                            <a href="#"><button class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp;
+                                    View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/rondatar.github.io"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/react2.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Digital Business
+                            Card
+                        </div>
+                        <div class="proj-details-light">
+                            Responsive Website for Digital business card. This is built using HTML, CSS, Javascript
+                            and
+                            React.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://645a6027d69363367443d9c6--animated-phoenix-8d392c.netlify.app/"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp; View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/digital-business-card"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/wordpress.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Tenten's Sizzling
+                            Hauz
+                        </div>
+                        <div class="proj-details-light">
+                            Responsive Website for Tenten's Sizzling Hauz. This is built using Wordpress
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank" href="https://tentenssizzling.wordpress.com/"><button class="btn-proj"><i
+                                        class="fa-solid fa-eye"></i> &nbsp; View</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/javascript.todolist.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; To do List
+                        </div>
+                        <div class="proj-details-light">
+                            This is a simple to-do list that built using HTML, CSS and Javascript.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://rondatar02.000webhostapp.com/To%20Do%20List/index.html"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp; View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/To-Do-List"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/jquery-validity.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Registration
+                            (Jquery
+                            Validity)
+                        </div>
+                        <div class="proj-details-light">
+                            This is my jquery validity activity in my subject. This is built using HTML, CSS,
+                            Javascript
+                            and
+                            Jquery.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://rondatar02.000webhostapp.com/Activity%208/index.html"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp; View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/Registration-Jquery-Validity"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/php-nba.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; NBA Player using
+                            PHP
+                        </div>
+                        <div class="proj-details-light">
+                            This is my NBA maker using CRUD. This is built using HTML, CSS, PHP and
+                            MySQL.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://rondatar02.000webhostapp.com/FinalProject/create.php"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp; View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/NBA-Player-Using-PHP"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/javascript-scoreboard.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Basketball
+                            Scoreboard
+                        </div>
+                        <div class="proj-details-light">
+                            This is a basketball scoreboard that i got in scrimba. This is built using HTML, CSS and
+                            Javascript.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://rondatar02.000webhostapp.com/Solo-Projects-Basketball-Scoreboard/index.html"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp; View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/Basketball-Scoreboard"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/python-thesis.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; PRABSA (Our
+                            Thesis)
+                        </div>
+                        <div class="proj-details-light">
+                            This is a PRABSA application, you can view all the details by clicking <a
+                                href="https://nlpprabsa.000webhostapp.com/PRABSA/index.html" target="_blank">this
+                                link</a>.
+                            This is built
+                            using Python.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://drive.google.com/file/d/1z6q1sG34IxxSh2t5bFjy0M6TvAzh_in-/view?usp=sharing"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp;
+                                    View</button></a>
+                            <a target="_blank"
+                                href="https://drive.google.com/drive/folders/1pqskewguQj0LVjJ99hunuewXC1FpYxt3?usp=sharing"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/react1.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Travel Journal
+                        </div>
+                        <div class="proj-details-light">
+                            This is my travel journal that i got in scrimba. This is built using HTML, CSS,
+                            Javascript
+                            and
+                            React.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://645a5bced69363333343d8e2--sweet-licorice-8730af.netlify.app/"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp; View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/Travel-Journal"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/javascript.bgp.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Bato, Papel,
+                            Gunting
+                        </div>
+                        <div class="proj-details-light">
+                            This is a rock scissor paper in tagalog version. This is built using HTML, CSS and
+                            Javascript.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://rondatar02.000webhostapp.com/Bato,%20Papel,%20Gunting/index.html"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp; View</button></a>
+                            <a target="_blank"
+                                href="https://github.com/rondatar2/Rock-Paper-Scissor-Tagalog_version"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/javascript.extension1.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Random Password
+                            Extension
+                        </div>
+                        <div class="proj-details-light">
+                            This is a random password generator extension that i got in scrimba. This is built using
+                            HTML,
+                            CSS and
+                            Javascript.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://rondatar02.000webhostapp.com/Solo-Projects-Password-Generator/index.html"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp; View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/Random-Password-Generator"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/javascript.extension2.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Unit Conversion
+                            Extension
+                        </div>
+                        <div class="proj-details-light">
+                            This is a Unit Conversion extension that i got in scrimba. This is built using HTML,
+                            CSS and
+                            Javascript.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://rondatar02.000webhostapp.com/Solo-Projects-Unit-Converter/index.html"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp;
+                                    View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/Unit-Conversion"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/javascript-registration.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Registration Form
+                        </div>
+                        <div class="proj-details-light">
+                            This is my registration form activity in my subject. This is built using HTML,
+                            CSS and
+                            Javascript.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank" href="https://rondatar02.000webhostapp.com/Act1/index.html"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp; View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/Registration-Form"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/javascript-registrationform.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Student
+                            Registration
+                            Form
+                        </div>
+                        <div class="proj-details-light">
+                            This is my student registration form activity in my subject. This is built using HTML,
+                            CSS and
+                            Javascript.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank" href="https://rondatar02.000webhostapp.com/Act2/index.html"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp;
+                                    View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/Student-Registration-Form"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/javascript-salarycomputation.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Salary Computation
+                        </div>
+                        <div class="proj-details-light">
+                            This is my salary computation activity in my subject. This is built using HTML,
+                            CSS and
+                            Javascript.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank"
+                                href="https://rondatar02.000webhostapp.com/Activity%203/index.html"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp;
+                                    View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/Salary-Computation"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/jquery-example.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; Jquery examples
+                        </div>
+                        <div class="proj-details-light">
+                            This is my Jquery examples project activity in my subject. This is built using HTML,
+                            CSS,
+                            Javascript and Jquery.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank" href="https://rondatar02.000webhostapp.com/jquery/index.html"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp;
+                                    View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/Jquery-Examples"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item reveal proj-hide">
+                    <div class="project-image">
+                        <img class="proj-image" src="img/projects/php-registrationfrom.jpg" alt="">
+                    </div>
+                    <div class="project-details">
+                        <div class="proj-details-bold"><i class="fa-solid fa-rocket"></i> &nbsp; PHP Registration
+                            Form
+                        </div>
+                        <div class="proj-details-light">
+                            This is my PHP Registration Form activity in my subject. This is built using HTML,
+                            CSS and PHP.
+                        </div>
+                        <div class="proj-btn">
+                            <a target="_blank" href="https://rondatar02.000webhostapp.com/MAct2/index.php"><button
+                                    class="btn-proj"><i class="fa-solid fa-eye"></i> &nbsp;
+                                    View</button></a>
+                            <a target="_blank" href="https://github.com/rondatar2/PHP-Registration-Form"><button
+                                    class="btn-proj"><i class="fa-solid fa-code"></i> &nbsp;
+                                    Code</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="proj-more">
+                    <button class="more-toggle reveal">View more</button>
+                </div>
+            </div>
+        </div>
+        <div class="contact-container" id="contact">
+            <div class="bold-contact reveal">
+                Contact
+                <div class="border">
+                    <div class="border-bottom"></div>
+                </div>
+            </div>
+            <div class="contact reveal">
+                <div class="info-contact">
+                    <div class="info">
+                        <div class="icon-info">
+                            <div><i class="fa-solid fa-phone fa-2xl"></i></div>
+                            <div><i class="fa-solid fa-house fa-2xl"></i></div>
+                            <div><i class="fa-solid fa-envelope fa-2xl"></i></div>
+                        </div>
+                        <div class="details-info">
+                            <div>
+                                <div class="info-details-bold">Phone</div>
+                                <div class="info-details-light">+639663750931</div>
+                            </div>
+                            <div>
+                                <div class="info-details-bold">Location</div>
+                                <div class="info-details-light">181 G M H Del Pilar Street Panghulo Malabon City
+                                </div>
+                            </div>
+                            <div>
+                                <div class="info-details-bold">Email</div>
+                                <div class="info-details-light">rondatar3@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="socmed-contact">
+                        <div class="socmed-bold">Follow me on my social media</div>
+                        <div class="socmed-icon">
+                            <a href="https://twitter.com/datar_ron" target="_blank">
+                                <i class="link fa-brands fa-twitter fa-2xl"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/ranulfo-ii-datar-bab743243/" target="_blank">
+                                <i class="link fa-brands fa-linkedin fa-2xl"></i>
+                            </a>
+                            <a href="https://github.com/rondatar2" target="_blank">
+                                <i class="link fa-brands fa-github fa-2xl"></i>
+                            </a>
+                            <a href="https://www.facebook.com/ron.datar.7" target="_blank">
+                                <i class="link fa-brands fa-facebook fa-2xl"></i>
+                            </a>
+                            <a href="https://www.instagram.com/ron.ar2/" target="_blank">
+                                <p class="instagram">
+                                    <i class="link fa-brands fa-instagram fa-2xl"></i>
+                                </p>
+                            </a>
+                        </div>
+                        <div class="hi-contact">
+                            <a href="mailto: rondatar3@gmail.com">
+                                <button class="hi-btn">Say Hi to me &nbsp; <i
+                                        class="fa-solid fa-hand fa-bounce fa-xl"></i></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="input-contact">
+                    <div class="input-title">
+                        Let's Work Together
+                    </div>
+                    <form class="inputcontain" onsubmit="sendEmail(); reset(); return false;">
+                        <div class="info-details-light">Name</div>
+                        <input class="contact-input" type="text" id="name" placeholder="Your Name" required>
+                        <div class="info-details-light">Email</div>
+                        <input class="contact-input" type="email" id="email" placeholder="Email ID" required>
+                        <div class="info-details-light">Message</div>
+                        <textarea class="message" id="messagetext" placeholder="How can i help you?" rows="4"
+                            cols="50"></textarea>
+                        <div class="btn-info-container">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <a href="#nav">
+            <div class="to-top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+        </a>
+        <div class="footer">Designed & Built by Ranulfo II R. Datar</div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
